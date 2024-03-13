@@ -1,0 +1,808 @@
+{ 
+ ChannelSelection = { 
+   "1", 
+   "7", 
+   "2"
+ }, 
+ ExploreFileAndParams = { 
+   ExploreFile = "ModernUpProducer.Explore", 
+   Params = { 
+     Dynamicrange = 0.64432388544083, 
+     Fx = 0.25170764327049, 
+     Rateshift = 0.49464130401611, 
+     Tone = 0.67060250043869
+   }
+ }, 
+ ExploreWarningVisible = 0, 
+ FXLayer = { 
+   ["ChMa/"] = { 
+     EQ = { 
+       _Ins_EQ_CutHiFreq = 1, 
+       _Ins_EQ_CutHiQ = 0.5, 
+       _Ins_EQ_CutLoFreq = 0, 
+       _Ins_EQ_CutLoQ = 0.5, 
+       _Ins_EQ_Enable = 1, 
+       _Ins_EQ_HiFreq = 0.86920487880707, 
+       _Ins_EQ_HiGain = 0.60235232114792, 
+       _Ins_EQ_HiQ = 0.19666658341885, 
+       _Ins_EQ_LoFreq = 0.22206588089466, 
+       _Ins_EQ_LoGain = 0.31052631139755, 
+       _Ins_EQ_LoQ = 0.37000003457069, 
+       _Ins_EQ_MidFreq = 0.46893313527107, 
+       _Ins_EQ_MidGain = 0.38421052694321, 
+       _Ins_EQ_MidQ = 0.69999998807907
+     }, 
+     Filter = { 
+       _Ins_Filter_Enable = 0, 
+       _Ins_Filter_Hi = 0.77605199813843, 
+       _Ins_Filter_Lo = 0.071203999221325
+     }, 
+     LevelSlider = 0.8265306353569, 
+     ["MultiFX/"] = { 
+       Chorus = { 
+         _Alternate = 0, 
+         _Depth = 0.5, 
+         _Enable = 1, 
+         _FilterHi = 1, 
+         _FilterLo = 0, 
+         _Mix = 0.5, 
+         _Rate = 0.5, 
+         _StereoWidth = 0.5, 
+         _Voices = 5, 
+         _XMod2Mix = 0.5
+       }, 
+       CompDist = { 
+         _Comp_Attack = 0.20000000298023, 
+         _Comp_Enable = 0, 
+         _Comp_Ratio = 0.5, 
+         _Comp_Release = 0.20000000298023, 
+         _Comp_Threshold = 0.5, 
+         _Dist_Amount = 0.5, 
+         _Dist_Enable = 0, 
+         _Dist_FreqHi = 1, 
+         _Dist_FreqLo = 0, 
+         _Dist_Mix = 0.5, 
+         _Dist_Type = 5
+       }, 
+       CurrentSelection = "Phaser", 
+       Enable = 1, 
+       Phaser = { 
+         _Enable = 1, 
+         _Feedback = 0.16666667163372, 
+         _Level = 0, 
+         _ModDepth = 0.22619047760963, 
+         _ModRate = 0.20000000298023, 
+         _ModShape = 0, 
+         _ModShapeInvert = 0, 
+         _ModStereo = 1, 
+         _Phase = 0.18452380597591, 
+         _Stages = 12, 
+         _TempoSync = 0, 
+         _XMod2Feedback = 0.5, 
+         _XMod2Level = 0.60974019765854
+       }, 
+       Tremolo = { 
+         _Depth = 0.5, 
+         _Enable = 1, 
+         _FilterCutoff = 0.5, 
+         _FilterDepth = 0.5, 
+         _FilterEnable = 0, 
+         _PannerDepth = 0.5, 
+         _Rate = 0.40000000596046, 
+         _Shape = 0, 
+         _ShapeInvert = 0, 
+         _TempoSync = 0, 
+         _XMod2Depth = 0.5, 
+         _XMod2FilterCutoff = 0.5, 
+         _XMod2FilterDepth = 0.5, 
+         _XMod2PannerDepth = 0.5
+       }
+     }, 
+     ["MultiFXPre/"] = { 
+       Chorus = { 
+         _Alternate = 0, 
+         _Depth = 0.5, 
+         _Enable = 1, 
+         _FilterHi = 1, 
+         _FilterLo = 0, 
+         _Mix = 0.5, 
+         _Rate = 0.5, 
+         _StereoWidth = 0.5, 
+         _Voices = 5, 
+         _XMod2Mix = 0.5
+       }, 
+       CompDist = { 
+         _Comp_Attack = 0.5, 
+         _Comp_Enable = 1, 
+         _Comp_Ratio = 0.5, 
+         _Comp_Release = 0.5, 
+         _Comp_Threshold = 0.53999996185303, 
+         _Dist_Amount = 0.16483516991138, 
+         _Dist_Enable = 1, 
+         _Dist_FreqHi = 1, 
+         _Dist_FreqLo = 0, 
+         _Dist_Mix = 1, 
+         _Dist_Type = 5
+       }, 
+       CurrentSelection = "Comp", 
+       Enable = 1, 
+       Phaser = { 
+         _Enable = 1, 
+         _Feedback = 0.5, 
+         _Level = 0.5, 
+         _ModDepth = 0.5, 
+         _ModRate = 0.5, 
+         _ModShape = 0, 
+         _ModShapeInvert = 0, 
+         _ModStereo = 1, 
+         _Phase = 0.5, 
+         _Stages = 12, 
+         _TempoSync = 0, 
+         _XMod2Feedback = 0.5, 
+         _XMod2Level = 0.5
+       }, 
+       Tremolo = { 
+         _Depth = 0.5, 
+         _Enable = 1, 
+         _FilterCutoff = 0.5, 
+         _FilterDepth = 0.5, 
+         _FilterEnable = 0, 
+         _PannerDepth = 0.5, 
+         _Rate = 0.40000000596046, 
+         _Shape = 0, 
+         _ShapeInvert = 0, 
+         _TempoSync = 0, 
+         _XMod2Depth = 0.5, 
+         _XMod2FilterCutoff = 0.5, 
+         _XMod2FilterDepth = 0.5, 
+         _XMod2PannerDepth = 0.5
+       }
+     }, 
+     Noise = { 
+       _DecayTime = 0.6285714507103, 
+       _Enable = 1, 
+       _GateLevel = 0.44999998807907, 
+       _MidiTrigger = 1, 
+       _NoiseLevel = 0.31428572535515, 
+       _NoiseType = 4
+     }, 
+     Pan = { 
+       _Pan = 0.5, 
+       _Width = 0
+     }
+   }, 
+   ["FX1/"] = { 
+     EQ = { 
+       _Ins_EQ_CutHiFreq = 1, 
+       _Ins_EQ_CutHiQ = 0.5, 
+       _Ins_EQ_CutLoFreq = 0, 
+       _Ins_EQ_CutLoQ = 0.5, 
+       _Ins_EQ_Enable = 1, 
+       _Ins_EQ_HiFreq = 1, 
+       _Ins_EQ_HiGain = 0.75789475440979, 
+       _Ins_EQ_HiQ = 0.23000001907349, 
+       _Ins_EQ_LoFreq = 0.19759035110474, 
+       _Ins_EQ_LoGain = 0.5, 
+       _Ins_EQ_LoQ = 0.69999998807907, 
+       _Ins_EQ_MidFreq = 0.50040167570114, 
+       _Ins_EQ_MidGain = 0.5, 
+       _Ins_EQ_MidQ = 0.69999998807907
+     }, 
+     LevelSlider = 0.55390071868896, 
+     ["MultiFX/"] = { 
+       Chorus = { 
+         _Alternate = 0, 
+         _Depth = 0.5, 
+         _Enable = 1, 
+         _FilterHi = 1, 
+         _FilterLo = 0, 
+         _Mix = 0.5, 
+         _Rate = 0.5, 
+         _StereoWidth = 0.5, 
+         _Voices = 5, 
+         _XMod2Mix = 0.5
+       }, 
+       CompDist = { 
+         _Comp_Attack = 0.20000000298023, 
+         _Comp_Enable = 0, 
+         _Comp_Ratio = 0.5, 
+         _Comp_Release = 0.20000000298023, 
+         _Comp_Threshold = 0.5, 
+         _Dist_Amount = 0.5, 
+         _Dist_Enable = 0, 
+         _Dist_FreqHi = 1, 
+         _Dist_FreqLo = 0, 
+         _Dist_Mix = 0.5, 
+         _Dist_Type = 5
+       }, 
+       CurrentSelection = "Chorus", 
+       Enable = 0, 
+       Phaser = { 
+         _Enable = 1, 
+         _Feedback = 0.5, 
+         _Level = 0.5, 
+         _ModDepth = 0.5, 
+         _ModRate = 0.5, 
+         _ModShape = 0, 
+         _ModShapeInvert = 0, 
+         _ModStereo = 1, 
+         _Phase = 0.5, 
+         _Stages = 12, 
+         _TempoSync = 0, 
+         _XMod2Feedback = 0.5, 
+         _XMod2Level = 0.5
+       }, 
+       Tremolo = { 
+         _Depth = 0.5, 
+         _Enable = 1, 
+         _FilterCutoff = 0.5, 
+         _FilterDepth = 0.5, 
+         _FilterEnable = 0, 
+         _PannerDepth = 0.5, 
+         _Rate = 0.40000000596046, 
+         _Shape = 0, 
+         _ShapeInvert = 0, 
+         _TempoSync = 0, 
+         _XMod2Depth = 0.5, 
+         _XMod2FilterCutoff = 0.5, 
+         _XMod2FilterDepth = 0.5, 
+         _XMod2PannerDepth = 0.5
+       }
+     }, 
+     ["MultiFXInstr/"] = { 
+       CurrentSelection = "Reso12", 
+       Enable = 1
+     }, 
+     ["MultiFXPre/"] = { 
+       Chorus = { 
+         _Alternate = 0, 
+         _Depth = 0.5, 
+         _Enable = 1, 
+         _FilterHi = 1, 
+         _FilterLo = 0, 
+         _Mix = 0.5, 
+         _Rate = 0.5, 
+         _StereoWidth = 0.5, 
+         _Voices = 5, 
+         _XMod2Mix = 0.5
+       }, 
+       CompDist = { 
+         _Comp_Attack = 0.20000000298023, 
+         _Comp_Enable = 0, 
+         _Comp_Ratio = 0.5, 
+         _Comp_Release = 0.20000000298023, 
+         _Comp_Threshold = 0.57333338260651, 
+         _Dist_Amount = 0.30580359697342, 
+         _Dist_Enable = 0, 
+         _Dist_FreqHi = 1, 
+         _Dist_FreqLo = 0, 
+         _Dist_Mix = 0.41294640302658, 
+         _Dist_Type = 7
+       }, 
+       CurrentSelection = "Comp", 
+       Enable = 0, 
+       Phaser = { 
+         _Enable = 1, 
+         _Feedback = 0.5, 
+         _Level = 0.5, 
+         _ModDepth = 0.5, 
+         _ModRate = 0.5, 
+         _ModShape = 0, 
+         _ModShapeInvert = 0, 
+         _ModStereo = 1, 
+         _Phase = 0.5, 
+         _Stages = 12, 
+         _TempoSync = 0, 
+         _XMod2Feedback = 0.5, 
+         _XMod2Level = 0.5
+       }, 
+       Tremolo = { 
+         _Depth = 0.5, 
+         _Enable = 1, 
+         _FilterCutoff = 0.5, 
+         _FilterDepth = 0.5, 
+         _FilterEnable = 0, 
+         _PannerDepth = 0.5, 
+         _Rate = 0.40000000596046, 
+         _Shape = 0, 
+         _ShapeInvert = 0, 
+         _TempoSync = 0, 
+         _XMod2Depth = 0.5, 
+         _XMod2FilterCutoff = 0.5, 
+         _XMod2FilterDepth = 0.5, 
+         _XMod2PannerDepth = 0.5
+       }
+     }, 
+     Noise = { 
+       _DecayTime = 0.59999996423721, 
+       _Enable = 0, 
+       _GateLevel = 0.44999998807907, 
+       _MidiTrigger = 1, 
+       _NoiseLevel = 0.59285712242126, 
+       _NoiseType = 5
+     }, 
+     Pan = { 
+       _Pan = 0.5, 
+       _Width = 0
+     }, 
+     Send1Knob = 0, 
+     Send2Knob = 0.5
+   }, 
+   ["FX2/"] = { 
+     EQ = { 
+       _Ins_EQ_CutHiFreq = 1, 
+       _Ins_EQ_CutHiQ = 0.5, 
+       _Ins_EQ_CutLoFreq = 0, 
+       _Ins_EQ_CutLoQ = 0.5, 
+       _Ins_EQ_Enable = 1, 
+       _Ins_EQ_HiFreq = 1, 
+       _Ins_EQ_HiGain = 1, 
+       _Ins_EQ_HiQ = 0.11972222477198, 
+       _Ins_EQ_LoFreq = 0.19759035110474, 
+       _Ins_EQ_LoGain = 0.5, 
+       _Ins_EQ_LoQ = 0.69999998807907, 
+       _Ins_EQ_MidFreq = 0.58402538299561, 
+       _Ins_EQ_MidGain = 0.33157894015312, 
+       _Ins_EQ_MidQ = 0.3299999833107
+     }, 
+     LevelSlider = 0.69387757778168, 
+     ["MultiFX/"] = { 
+       Chorus = { 
+         _Alternate = 0, 
+         _Depth = 0.24776788055897, 
+         _Enable = 1, 
+         _FilterHi = 1, 
+         _FilterLo = 0, 
+         _Mix = 0.23214286565781, 
+         _Rate = 0.14250989258289, 
+         _StereoWidth = 1, 
+         _Voices = 5, 
+         _XMod2Mix = 1
+       }, 
+       CompDist = { 
+         _Comp_Attack = 0.20000000298023, 
+         _Comp_Enable = 0, 
+         _Comp_Ratio = 0.5, 
+         _Comp_Release = 0.20000000298023, 
+         _Comp_Threshold = 0.5, 
+         _Dist_Amount = 0.5, 
+         _Dist_Enable = 0, 
+         _Dist_FreqHi = 1, 
+         _Dist_FreqLo = 0, 
+         _Dist_Mix = 0.5, 
+         _Dist_Type = 5
+       }, 
+       CurrentSelection = "Chorus", 
+       Enable = 1, 
+       Phaser = { 
+         _Enable = 1, 
+         _Feedback = 0.5, 
+         _Level = 0.5, 
+         _ModDepth = 0.5, 
+         _ModRate = 0.5, 
+         _ModShape = 0, 
+         _ModShapeInvert = 0, 
+         _ModStereo = 1, 
+         _Phase = 0.5, 
+         _Stages = 12, 
+         _TempoSync = 0, 
+         _XMod2Feedback = 0.5, 
+         _XMod2Level = 0.5
+       }, 
+       Tremolo = { 
+         _Depth = 0.5, 
+         _Enable = 1, 
+         _FilterCutoff = 0.5, 
+         _FilterDepth = 0.5, 
+         _FilterEnable = 0, 
+         _PannerDepth = 0.5, 
+         _Rate = 0.40000000596046, 
+         _Shape = 0, 
+         _ShapeInvert = 0, 
+         _TempoSync = 0, 
+         _XMod2Depth = 0.5, 
+         _XMod2FilterCutoff = 0.5, 
+         _XMod2FilterDepth = 0.5, 
+         _XMod2PannerDepth = 0.5
+       }
+     }, 
+     ["MultiFXInstr/"] = { 
+       CurrentSelection = "Reso12", 
+       Enable = 1
+     }, 
+     ["MultiFXPre/"] = { 
+       Chorus = { 
+         _Alternate = 0, 
+         _Depth = 0.5, 
+         _Enable = 1, 
+         _FilterHi = 1, 
+         _FilterLo = 0, 
+         _Mix = 0.5, 
+         _Rate = 0.5, 
+         _StereoWidth = 0.5, 
+         _Voices = 5, 
+         _XMod2Mix = 0.5
+       }, 
+       CompDist = { 
+         _Comp_Attack = 0.20000000298023, 
+         _Comp_Enable = 0, 
+         _Comp_Ratio = 0.47321429848671, 
+         _Comp_Release = 0.20000000298023, 
+         _Comp_Threshold = 0.62000000476837, 
+         _Dist_Amount = 0.24330355226994, 
+         _Dist_Enable = 0, 
+         _Dist_FreqHi = 1, 
+         _Dist_FreqLo = 0, 
+         _Dist_Mix = 0.70089286565781, 
+         _Dist_Type = 5
+       }, 
+       CurrentSelection = "Comp", 
+       Enable = 0, 
+       Phaser = { 
+         _Enable = 1, 
+         _Feedback = 0.5, 
+         _Level = 0.5, 
+         _ModDepth = 0.5, 
+         _ModRate = 0.5, 
+         _ModShape = 0, 
+         _ModShapeInvert = 0, 
+         _ModStereo = 1, 
+         _Phase = 0.5, 
+         _Stages = 12, 
+         _TempoSync = 0, 
+         _XMod2Feedback = 0.5, 
+         _XMod2Level = 0.5
+       }, 
+       Tremolo = { 
+         _Depth = 0.5, 
+         _Enable = 1, 
+         _FilterCutoff = 0.5, 
+         _FilterDepth = 0.5, 
+         _FilterEnable = 0, 
+         _PannerDepth = 0.5, 
+         _Rate = 0.40000000596046, 
+         _Shape = 0, 
+         _ShapeInvert = 0, 
+         _TempoSync = 0, 
+         _XMod2Depth = 0.5, 
+         _XMod2FilterCutoff = 0.5, 
+         _XMod2FilterDepth = 0.5, 
+         _XMod2PannerDepth = 0.5
+       }
+     }, 
+     Noise = { 
+       _DecayTime = 0.60714286565781, 
+       _Enable = 0, 
+       _GateLevel = 0.44999998807907, 
+       _MidiTrigger = 1, 
+       _NoiseLevel = 0.50714284181595, 
+       _NoiseType = 0
+     }, 
+     Pan = { 
+       _Pan = 0.5, 
+       _Width = 0
+     }, 
+     Send1Knob = 0, 
+     Send2Knob = 0.5
+   }, 
+   ["FX3/"] = { 
+     EQ = { 
+       _Ins_EQ_CutHiFreq = 1, 
+       _Ins_EQ_CutHiQ = 0.5, 
+       _Ins_EQ_CutLoFreq = 0, 
+       _Ins_EQ_CutLoQ = 0.5, 
+       _Ins_EQ_Enable = 1, 
+       _Ins_EQ_HiFreq = 1, 
+       _Ins_EQ_HiGain = 0.83157896995544, 
+       _Ins_EQ_HiQ = 0, 
+       _Ins_EQ_LoFreq = 0.19759035110474, 
+       _Ins_EQ_LoGain = 0.5, 
+       _Ins_EQ_LoQ = 0.69999998807907, 
+       _Ins_EQ_MidFreq = 0.50040167570114, 
+       _Ins_EQ_MidGain = 0.5, 
+       _Ins_EQ_MidQ = 0.69999998807907
+     }, 
+     LevelSlider = 0.24777829647064, 
+     ["MultiFX/"] = { 
+       Chorus = { 
+         _Alternate = 0, 
+         _Depth = 0.1651785671711, 
+         _Enable = 1, 
+         _FilterHi = 1, 
+         _FilterLo = 0, 
+         _Mix = 0.5, 
+         _Rate = 0.13169641792774, 
+         _StereoWidth = 0.5, 
+         _Voices = 5, 
+         _XMod2Mix = 0.5
+       }, 
+       CompDist = { 
+         _Comp_Attack = 0.20000000298023, 
+         _Comp_Enable = 0, 
+         _Comp_Ratio = 0.5, 
+         _Comp_Release = 0.20000000298023, 
+         _Comp_Threshold = 0.5, 
+         _Dist_Amount = 0.5, 
+         _Dist_Enable = 0, 
+         _Dist_FreqHi = 1, 
+         _Dist_FreqLo = 0, 
+         _Dist_Mix = 0.5, 
+         _Dist_Type = 5
+       }, 
+       CurrentSelection = "Chorus", 
+       Enable = 1, 
+       Phaser = { 
+         _Enable = 1, 
+         _Feedback = 0.5, 
+         _Level = 0.5, 
+         _ModDepth = 0.5, 
+         _ModRate = 0.5, 
+         _ModShape = 0, 
+         _ModShapeInvert = 0, 
+         _ModStereo = 1, 
+         _Phase = 0.5, 
+         _Stages = 12, 
+         _TempoSync = 0, 
+         _XMod2Feedback = 0.5, 
+         _XMod2Level = 0.5
+       }, 
+       Tremolo = { 
+         _Depth = 0.5, 
+         _Enable = 1, 
+         _FilterCutoff = 0.5, 
+         _FilterDepth = 0.5, 
+         _FilterEnable = 0, 
+         _PannerDepth = 0.5, 
+         _Rate = 0.40000000596046, 
+         _Shape = 0, 
+         _ShapeInvert = 0, 
+         _TempoSync = 0, 
+         _XMod2Depth = 0.5, 
+         _XMod2FilterCutoff = 0.5, 
+         _XMod2FilterDepth = 0.5, 
+         _XMod2PannerDepth = 0.5
+       }
+     }, 
+     ["MultiFXInstr/"] = { 
+       CurrentSelection = "Reso12", 
+       Enable = 1
+     }, 
+     ["MultiFXPre/"] = { 
+       Chorus = { 
+         _Alternate = 0, 
+         _Depth = 0.5, 
+         _Enable = 1, 
+         _FilterHi = 1, 
+         _FilterLo = 0, 
+         _Mix = 0.5, 
+         _Rate = 0.5, 
+         _StereoWidth = 0.5, 
+         _Voices = 5, 
+         _XMod2Mix = 0.5
+       }, 
+       CompDist = { 
+         _Comp_Attack = 0.20000000298023, 
+         _Comp_Enable = 0, 
+         _Comp_Ratio = 0.5, 
+         _Comp_Release = 0.20000000298023, 
+         _Comp_Threshold = 0.5, 
+         _Dist_Amount = 0.5, 
+         _Dist_Enable = 0, 
+         _Dist_FreqHi = 1, 
+         _Dist_FreqLo = 0, 
+         _Dist_Mix = 0.5, 
+         _Dist_Type = 5
+       }, 
+       CurrentSelection = "Tremolo", 
+       Enable = 0, 
+       Phaser = { 
+         _Enable = 1, 
+         _Feedback = 0.5, 
+         _Level = 0.5, 
+         _ModDepth = 0.5, 
+         _ModRate = 0.5, 
+         _ModShape = 0, 
+         _ModShapeInvert = 0, 
+         _ModStereo = 1, 
+         _Phase = 0.5, 
+         _Stages = 12, 
+         _TempoSync = 0, 
+         _XMod2Feedback = 0.5, 
+         _XMod2Level = 0.5
+       }, 
+       Tremolo = { 
+         _Depth = 0.5, 
+         _Enable = 1, 
+         _FilterCutoff = 0.5, 
+         _FilterDepth = 0.5, 
+         _FilterEnable = 0, 
+         _PannerDepth = 0.5, 
+         _Rate = 0.40000000596046, 
+         _Shape = 0, 
+         _ShapeInvert = 0, 
+         _TempoSync = 0, 
+         _XMod2Depth = 0.5, 
+         _XMod2FilterCutoff = 0.5, 
+         _XMod2FilterDepth = 0.5, 
+         _XMod2PannerDepth = 0.5
+       }
+     }, 
+     Noise = { 
+       _DecayTime = 0.5, 
+       _Enable = 0, 
+       _GateLevel = 0.44999998807907, 
+       _MidiTrigger = 1, 
+       _NoiseLevel = 0.5, 
+       _NoiseType = 0
+     }, 
+     Pan = { 
+       _Pan = 0.5, 
+       _Width = 0
+     }, 
+     Send1Knob = 0, 
+     Send2Knob = 0
+   }, 
+   ["Send1/"] = { 
+     Delay = { 
+       _Enable = 1, 
+       _Filter_Hi = 1, 
+       _Filter_Lo = 0, 
+       _Level = 0.5, 
+       _PingPong = 0.30000001192093, 
+       _Swing = 0.5, 
+       _TempoSync = 0, 
+       _Time = 0.5
+     }, 
+     FXEQ = { 
+       _CutHiFreq = 1, 
+       _CutHiQ = 0.5, 
+       _CutLoFreq = 0, 
+       _CutLoQ = 0.5, 
+       _Enable = 1, 
+       _HiFreq = 0.75, 
+       _HiGain = 0.5, 
+       _HiQ = 0.5, 
+       _LoFreq = 0.25, 
+       _LoGain = 0.5, 
+       _LoQ = 0.5, 
+       _MidFreq = 0.5, 
+       _MidGain = 0.5, 
+       _MidQ = 0.68999999761581
+     }, 
+     LevelSlider = 0.75798231363297, 
+     MakroMixDelayReverb = 0, 
+     Pan = { 
+       _Pan = 0.5, 
+       _Width = 0
+     }, 
+     Reverb = { 
+       _Damp = 0.5, 
+       _Decay = 0.5, 
+       _Enable = 1, 
+       _PreDelay = 0, 
+       _Type = 0
+     }
+   }, 
+   ["Send2/"] = { 
+     Delay = { 
+       _Enable = 1, 
+       _Filter_Hi = 1, 
+       _Filter_Lo = 0, 
+       _Level = 0.52455359697342, 
+       _PingPong = 0.30000001192093, 
+       _Swing = 0.5, 
+       _TempoSync = 0, 
+       _Time = 0.5
+     }, 
+     FXEQ = { 
+       _CutHiFreq = 1, 
+       _CutHiQ = 0.5, 
+       _CutLoFreq = 0, 
+       _CutLoQ = 0.5, 
+       _Enable = 1, 
+       _HiFreq = 0.75, 
+       _HiGain = 0.5, 
+       _HiQ = 0.5, 
+       _LoFreq = 0.25, 
+       _LoGain = 0.5, 
+       _LoQ = 0.5, 
+       _MidFreq = 0.5, 
+       _MidGain = 0.5, 
+       _MidQ = 0.69999998807907
+     }, 
+     LevelSlider = 0.33334028720856, 
+     MakroMixDelayReverb = 1, 
+     Pan = { 
+       _Pan = 0.5, 
+       _Width = 0
+     }, 
+     Reverb = { 
+       _Damp = 0.20820860564709, 
+       _Decay = 0.45116806030273, 
+       _Enable = 1, 
+       _PreDelay = 0.14285714924335, 
+       _Type = 2
+     }
+   }
+ }, 
+ Instrument = { 
+   instrumentId = "ModernUp", 
+   state = { 
+     BodyResonanceLevel = 0.51740306615829, 
+     BodyResonanceNoiseLevel = 0.5, 
+     DynRangeHi = 1, 
+     DynRangeLo = 0.023076923564076, 
+     PedalNoiseLevel = 0.57978594303131, 
+     SoftPedalEffect = 0.5
+   }
+ }, 
+ Meta = { 
+   ProductId = { 
+     AKIP0002 = "full"
+   }, 
+   TimeStamp = "2022-02-05 - 22-30-28"
+ }, 
+ Midi = "4D546864000000060000000101E04D54726B0000018C00FF030000FF510307A12000FF58040402180800B0400000400000903342014F7232B0402607404A15407F810E903A2F43804F00811690433F813B8043001C90465C81593F2D00804600816F90432E81008043004B904B5F55803F002B3300214B002E3A0001903F3563803F007C90445B063341004D7223B0404A19803A40033F40004340004640004B40004F4000B040008105404A13903C320AB0407F81188044003E903F331D804D00812E90505C044868817D80480081153F001F904D656580500071903F3035804D000133000C3C00573F002B904430298044008140904B6407466304333C26B0404A22803C40013F40004440004840004D4000504001B0400078404A0A9047401980460005B0407F4E804700154B0053903B2C81404B5202465D47B0404A61407F6D804B0024460072904B500244478137803300164B000344000A903F2B0B803B005B3F005A90412F2E804100813F903327084B3407433315B0404A2A803B40013F4000414000444000464000474000B040008A7A8033001B4B000A430000FF2F00", 
+ PresetVersion = 2, 
+ SamplerEdit = { 
+   AmpEnv_Attack = 0, 
+   AmpEnv_AttackCurve = 0.5, 
+   AmpEnv_AttackLevel = 1, 
+   AmpEnv_Decay = 0.5, 
+   AmpEnv_DecayCurve = 0.031122799962759, 
+   AmpEnv_DecayLevel = 1, 
+   AmpEnv_Enable_Gui = 1, 
+   AmpEnv_Release = 0.050000000745058, 
+   AmpEnv_ReleaseCurve = 0.031122799962759, 
+   AmpEnv_SustainCurve = 0.5, 
+   AmpEnv_SustainHold = 0.5, 
+   AmpEnv_SustainLevel = 1, 
+   AmpEnv_Vel2Attack = 0, 
+   Detune = 0.41474658250809, 
+   DynamicRange = 0.5, 
+   FilterEnv_Amount = 0.5, 
+   FilterEnv_Attack = 0, 
+   FilterEnv_AttackCurve = 0.5, 
+   FilterEnv_AttackLevel = 1, 
+   FilterEnv_Decay = 0.5, 
+   FilterEnv_DecayCurve = 0.050000000745058, 
+   FilterEnv_DecayLevel = 0.5, 
+   FilterEnv_Enable = 1, 
+   FilterEnv_Release = 0.10000000149012, 
+   FilterEnv_ReleaseCurve = 0.029999999329448, 
+   FilterEnv_ReleaseLevel = 0, 
+   FilterEnv_StartLevel = 0.5, 
+   FilterEnv_SustainCurve = 0.5, 
+   FilterEnv_SustainHold = 1, 
+   FilterEnv_SustainLevel = 0.5, 
+   FilterEnv_Vel2Amount = 0, 
+   FilterEnv_Vel2Attack = 0, 
+   Filter_Cutoff = 1, 
+   Filter_Drive = 0, 
+   Filter_Enable = 0, 
+   Filter_Key2Cutoff = 0.5, 
+   Filter_Resonance = 0, 
+   Filter_Type = 0, 
+   Filter_XMod2Cutoff = 0.5, 
+   Key2Volume = 0.5, 
+   NoteTranspose = 0, 
+   PitchEnv_Curve = 0.029999999329448, 
+   PitchEnv_Enable = 0, 
+   PitchEnv_Hold = 0, 
+   PitchEnv_OffsetLevel = 0.5, 
+   PitchEnv_Release = 0.10000000149012, 
+   PitchEnv_VelSens = 0, 
+   Pitch_Enable = -1, 
+   RateShift = 0.49732065200806, 
+   UseReleaseSamples = 1, 
+   Vibrato_Depth = 0, 
+   Vibrato_Rate = 0.5, 
+   Vibrato_XMod = 0.5
+ }, 
+ SavedWithAKVersion = "1.4.3", 
+ UserForumNameCached = "", 
+ UserId = 869975, 
+ info = "Edited by omitanc", 
+ tagFlags = { 
+ }
+}
